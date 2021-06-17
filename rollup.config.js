@@ -7,7 +7,6 @@ import htmlTemplate from 'rollup-plugin-generate-html-template'
 import postcss from 'rollup-plugin-postcss'
 import autoprefixer from 'autoprefixer'
 import tailwindcss from 'tailwindcss'
-import del from 'rollup-plugin-delete'
 import serve from 'rollup-plugin-serve'
 import livereload from 'rollup-plugin-livereload'
 import builtins from 'rollup-plugin-node-builtins'
@@ -53,9 +52,6 @@ const config = {
     watchTemplates([indexTemplate]),
     progress(),
     builtins(),
-    del({
-      targets: 'public/*'
-    }),
     resolve({
       browser: true
     }),
