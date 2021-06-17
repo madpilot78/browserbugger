@@ -1,7 +1,8 @@
 {
   "name": "browserbagger",
   "version": "0.1.0",
-  "description": "Setup to test javascript in browser","keywords": [
+  "description": "Setup to test javascript in browser",
+  "keywords": [
     "javascript",
     "browser",
     "test"
