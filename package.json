@@ -1,7 +1,11 @@
 {
   "name": "browserbagger",
   "version": "0.1.0",
-  "description": "Setup to test javascript in browser",
+  "description": "Setup to test javascript in browser","keywords": [
+    "javascript",
+    "browser",
+    "test"
+  ],
   "main": "src/index.js",
   "author": "Guido Falsi <mad@madpilot.net>",
   "license": "MIT",
