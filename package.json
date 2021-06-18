@@ -52,6 +52,6 @@
     "rollup-plugin-terser": "^7.0.2",
     "snazzy": "^9.0.0",
     "standard": "*",
-    "tailwindcss": "^2.1.4"
+    "tailwindcss": "^2.2.0"
   }
 }
