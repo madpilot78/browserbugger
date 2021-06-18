@@ -1,14 +1,9 @@
-let purge = []
-
-if (process.env.NODE_ENV && process.env.NODE_ENV === 'production') {
-  purge = [
+module.exports = {
+  mode: 'jit',
+  purge: [
     './resources/**/*.html',
     './src/**/*.js'
-  ]
-}
-
-module.exports = {
-  purge: purge,
+  ],
   darkMode: 'media',
   theme: {
     extend: {}
