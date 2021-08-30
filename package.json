@@ -12,6 +12,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
+    "clean": "rm -r public/*",
     "build": "NODE_ENV=development BABEL_ENV=development rollup -c",
     "dev": "NODE_ENV=development BABEL_ENV=development rollup -c -w",
     "serve": "NODE_ENV=development BABEL_ENV=development SERVE=yes rollup -c -w",
