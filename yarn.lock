@@ -762,9 +762,9 @@ color@^4.0.1:
     color-string "^1.6.0"
 
 colord@^2.0.1, colord@^2.6:
-  version "2.8.0"
-  resolved "https://registry.yarnpkg.com/colord/-/colord-2.8.0.tgz#64fb7aa03de7652b5a39eee50271a104c2783b12"
-  integrity sha512-kNkVV4KFta3TYQv0bzs4xNwLaeag261pxgzGQSh4cQ1rEhYjcTJfFRP0SDlbhLONg0eSoLzrDd79PosjbltufA==
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/colord/-/colord-2.9.0.tgz#35925baaae248170ea1b492deb1cc235d71b546e"
+  integrity sha512-D8guC3WXLzW892WdoQD+RhIRlfeQSZnTEOq+KxX6fak9ijrHt30oKF9L7jQovCA13pSIJJVFVEYzp4Y4f4k+Yg==
 
 commander@^2.20.0:
   version "2.20.3"
