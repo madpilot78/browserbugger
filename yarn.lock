@@ -893,14 +893,14 @@ cssesc@^3.0.0:
   integrity sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==
 
 cssnano-preset-default@^5.1.8:
-  version "5.1.8"
-  resolved "https://registry.yarnpkg.com/cssnano-preset-default/-/cssnano-preset-default-5.1.8.tgz#7525feb1b72f7b06e57f55064cbdae341d79dea2"
-  integrity sha512-zWMlP0+AMPBVE852SqTrP0DnhTcTA2C1wAF92TKZ3Va+aUVqLIhkqKlnJIXXdqXD7RN+S1ujuWmNpvrJBiM/vg==
+  version "5.1.9"
+  resolved "https://registry.yarnpkg.com/cssnano-preset-default/-/cssnano-preset-default-5.1.9.tgz#79628ac48eccbdad570f70b4018cc38d43d1b7df"
+  integrity sha512-RhkEucqlQ+OxEi14K1p8gdXcMQy1mSpo7P1oC44oRls7BYIj8p+cht4IFBFV3W4iOjTP8EUB33XV1fX9KhDzyA==
   dependencies:
     css-declaration-sorter "^6.0.3"
     cssnano-utils "^2.0.1"
     postcss-calc "^8.0.0"
-    postcss-colormin "^5.2.1"
+    postcss-colormin "^5.2.2"
     postcss-convert-values "^5.0.2"
     postcss-discard-comments "^5.0.1"
     postcss-discard-duplicates "^5.0.1"
@@ -919,7 +919,7 @@ cssnano-preset-default@^5.1.8:
     postcss-normalize-string "^5.0.1"
     postcss-normalize-timing-functions "^5.0.1"
     postcss-normalize-unicode "^5.0.1"
-    postcss-normalize-url "^5.0.3"
+    postcss-normalize-url "^5.0.4"
     postcss-normalize-whitespace "^5.0.1"
     postcss-ordered-values "^5.0.2"
     postcss-reduce-initial "^5.0.2"
@@ -2651,7 +2651,7 @@ postcss-calc@^8.0.0:
     postcss-selector-parser "^6.0.2"
     postcss-value-parser "^4.0.2"
 
-postcss-colormin@^5.2.1:
+postcss-colormin@^5.2.2:
   version "5.2.2"
   resolved "https://registry.yarnpkg.com/postcss-colormin/-/postcss-colormin-5.2.2.tgz#019cd6912bef9e7e0924462c5e4ffae241e2f437"
   integrity sha512-tSEe3NpqWARUTidDlF0LntPkdlhXqfDFuA1yslqpvvGAfpZ7oBaw+/QXd935NKm2U9p4PED0HDZlzmMk7fVC6g==
@@ -2857,7 +2857,7 @@ postcss-normalize-unicode@^5.0.1:
     browserslist "^4.16.0"
     postcss-value-parser "^4.1.0"
 
-postcss-normalize-url@^5.0.3:
+postcss-normalize-url@^5.0.4:
   version "5.0.4"
   resolved "https://registry.yarnpkg.com/postcss-normalize-url/-/postcss-normalize-url-5.0.4.tgz#3b0322c425e31dd275174d0d5db0e466f50810fb"
   integrity sha512-cNj3RzK2pgQQyNp7dzq0dqpUpQ/wYtdDZM3DepPmFjCmYIfceuD9VIAcOdvrNetjIU65g1B4uwdP/Krf6AFdXg==
