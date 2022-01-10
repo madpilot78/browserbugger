@@ -2801,11 +2801,11 @@ postcss-normalize-display-values@^5.0.1:
     postcss-value-parser "^4.2.0"
 
 postcss-normalize-positions@^5.0.1:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/postcss-normalize-positions/-/postcss-normalize-positions-5.0.1.tgz#868f6af1795fdfa86fbbe960dceb47e5f9492fe5"
-  integrity sha512-rvzWAJai5xej9yWqlCb1OWLd9JjW2Ex2BCPzUJrbaXmtKtgfL8dBMOOMTX6TnvQMtjk3ei1Lswcs78qKO1Skrg==
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/postcss-normalize-positions/-/postcss-normalize-positions-5.0.2.tgz#799fa494b352a5da183be8f050024af6d92fa29c"
+  integrity sha512-tqghWFVDp2btqFg1gYob1etPNxXLNh3uVeWgZE2AQGh6b2F8AK2Gj36v5Vhyh+APwIzNjmt6jwZ9pTBP+/OM8g==
   dependencies:
-    postcss-value-parser "^4.1.0"
+    postcss-value-parser "^4.2.0"
 
 postcss-normalize-repeat-style@^5.0.1:
   version "5.0.1"
