@@ -929,10 +929,10 @@ cssnano-preset-default@^5.1.10:
     postcss-svgo "^5.0.3"
     postcss-unique-selectors "^5.0.2"
 
-cssnano-utils@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/cssnano-utils/-/cssnano-utils-3.0.0.tgz#c0b9fcd6e4f05c5155b07e9ab11bf94b97163057"
-  integrity sha512-Pzs7/BZ6OgT+tXXuF12DKR8SmSbzUeVYCtMBbS8lI0uAm3mrYmkyqCXXPsQESI6kmLfEVBppbdVY/el3hg3nAA==
+cssnano-utils@^3.0.0, cssnano-utils@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/cssnano-utils/-/cssnano-utils-3.0.1.tgz#d3cc0a142d3d217f8736837ec0a2ccff6a89c6ea"
+  integrity sha512-VNCHL364lh++/ono+S3j9NlUK+d97KNkxI77NlqZU2W3xd2/qmyN61dsa47pTpb55zuU4G4lI7qFjAXZJH1OAQ==
 
 cssnano@^5.0.1:
   version "5.0.15"
@@ -2717,13 +2717,12 @@ postcss-minify-gradients@^5.0.4:
     postcss-value-parser "^4.2.0"
 
 postcss-minify-params@^5.0.3:
-  version "5.0.3"
-  resolved "https://registry.yarnpkg.com/postcss-minify-params/-/postcss-minify-params-5.0.3.tgz#9f933d37098ef1dcf007e159a47bb2c1cf06989d"
-  integrity sha512-NY92FUikE+wralaiVexFd5gwb7oJTIDhgTNeIw89i1Ymsgt4RWiPXfz3bg7hDy4NL6gepcThJwOYNtZO/eNi7Q==
+  version "5.0.4"
+  resolved "https://registry.yarnpkg.com/postcss-minify-params/-/postcss-minify-params-5.0.4.tgz#230a4d04456609e614db1d48c2eebc21f6490a45"
+  integrity sha512-Z0vjod9lRZEmEPfEmA2sCfjbfEEFKefMD3RDIQSUfXK4LpCyWkX1CniUgyNvnjJFLDPSxtgKzozhHhPHKoeGkg==
   dependencies:
-    alphanum-sort "^1.0.2"
     browserslist "^4.16.6"
-    cssnano-utils "^3.0.0"
+    cssnano-utils "^3.0.1"
     postcss-value-parser "^4.2.0"
 
 postcss-minify-selectors@^5.1.1:
