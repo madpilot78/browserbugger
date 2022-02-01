@@ -9,7 +9,6 @@ import autoprefixer from 'autoprefixer'
 import tailwindcss from 'tailwindcss'
 import serve from 'rollup-plugin-serve'
 import livereload from 'rollup-plugin-livereload'
-import builtins from 'rollup-plugin-node-builtins'
 import { terser } from 'rollup-plugin-terser'
 
 const indexTemplate = 'resources/template.html'
@@ -51,7 +50,6 @@ const config = {
   plugins: [
     watchTemplates([indexTemplate]),
     progress(),
-    builtins(),
     resolve({
       browser: true
     }),
