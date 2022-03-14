@@ -18,8 +18,7 @@
     "serve": "NODE_ENV=development BABEL_ENV=development SERVE=yes rollup -c -w",
     "prod": "NODE_ENV=production BABEL_ENV=production rollup -c",
     "pserve": "NODE_ENV=production BABEL_ENV=production SERVE=yes rollup -c -w",
-    "lint": "standard | snazzy",
-    "lintv": "standard --verbose| snazzy"
+    "pretty": "prettier --write ."
   },
   "standard": {
     "env": {
@@ -41,6 +40,8 @@
     "jquery": "^3.6.0",
     "lodash": "^4.17.21",
     "postcss": "^8.4.8",
+    "prettier": "^2.5.1",
+    "prettier-plugin-tailwindcss": "^0.1.8",
     "rollup": "^2.70.0",
     "rollup-plugin-execute": "^1.1.1",
     "rollup-plugin-generate-html-template": "^1.7.0",
@@ -50,8 +51,6 @@
     "rollup-plugin-progress": "^1.1.2",
     "rollup-plugin-serve": "^1.1.0",
     "rollup-plugin-terser": "^7.0.2",
-    "snazzy": "^9.0.0",
-    "standard": "*",
     "tailwindcss": "^3.0.23"
   }
 }
