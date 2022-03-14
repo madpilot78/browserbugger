@@ -14,11 +14,11 @@ import { terser } from 'rollup-plugin-terser'
 const indexTemplate = 'resources/template.html'
 
 // Add html template to watched files
-function watchTemplates (files) {
+function watchTemplates(files) {
   return {
     name: 'watch-template',
-    async buildStart () {
-      files.forEach(f => this.addWatchFile(f))
+    async buildStart() {
+      files.forEach((f) => this.addWatchFile(f))
     }
   }
 }
@@ -71,10 +71,7 @@ const config = {
       extract: true,
       minimize: wantMinimize,
       sourceMap: wantSourceMap,
-      plugins: [
-        tailwindcss,
-        autoprefixer
-      ]
+      plugins: [tailwindcss, autoprefixer]
     }),
     htmlTemplate({
       template: indexTemplate,
