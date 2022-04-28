@@ -54,13 +54,7 @@ const config = {
       browser: true
     }),
     alias({
-      resolve: ['.js', '.css'],
-      entries: [
-        {
-          find: /(.*)\.css/,
-          replacement: 'resources/css/$1.css'
-        }
-      ]
+      resolve: ['.js', '.css']
     }),
     babel({
       babelHelpers: 'bundled',
