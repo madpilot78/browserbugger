@@ -39,7 +39,7 @@
     "autoprefixer": "^10.4.7",
     "jquery": "^3.6.0",
     "lodash": "^4.17.21",
-    "postcss": "^8.4.13",
+    "postcss": "^8.4.14",
     "prettier": "^2.6.1",
     "prettier-plugin-tailwindcss": "^0.1.10",
     "rollup": "^2.73.0",
