@@ -41,7 +41,7 @@
     "lodash": "^4.17.21",
     "postcss": "^8.4.14",
     "prettier": "^2.7.1",
-    "prettier-plugin-tailwindcss": "^0.1.12",
+    "prettier-plugin-tailwindcss": "^0.1.13",
     "rollup": "^2.77.0",
     "rollup-plugin-execute": "^1.1.1",
     "rollup-plugin-generate-html-template": "^1.7.0",
