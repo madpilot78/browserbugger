@@ -18,19 +18,14 @@
     "serve": "NODE_ENV=development BABEL_ENV=development SERVE=yes rollup -c -w",
     "prod": "NODE_ENV=production BABEL_ENV=production rollup -c",
     "pserve": "NODE_ENV=production BABEL_ENV=production SERVE=yes rollup -c -w",
-    "pretty": "prettier --write ."
-  },
-  "standard": {
-    "env": {
-      "browser": true,
-      "jquery": true
-    },
-    "ignore": [
-      "public/"
-    ]
+    "pretty": "prettier --write .",
+    "lint": "eslint . --ext .js,.vue",
+    "fix": "eslint --fix . --ext .js,.vue"
   },
   "devDependencies": {
     "@babel/core": "^7.20.5",
+    "@madpilot78/eslint-config-base": "^1.2.1",
+    "@madpilot78/prettier-config": "^1.0.1",
     "@rollup/plugin-alias": "^4.0.2",
     "@rollup/plugin-babel": "^6.0.3",
     "@rollup/plugin-commonjs": "^23.0.3",
@@ -52,5 +47,19 @@
     "rollup-plugin-progress": "^1.1.2",
     "rollup-plugin-serve": "^2.0.2",
     "tailwindcss": "^3.2.4"
-  }
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true
+    },
+    "extends": [
+      "@madpilot78/eslint-config-base"
+    ],
+    "ignorePatterns": [
+      "node_packages/**",
+      "public/**"
+    ]
+  },
+  "prettier": "@madpilot78/prettier-config"
 }
