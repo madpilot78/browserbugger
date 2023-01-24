@@ -10,6 +10,7 @@ import resolve from '@rollup/plugin-node-resolve'
 import serve from 'rollup-plugin-serve'
 import tailwindcss from 'tailwindcss'
 import terser from '@rollup/plugin-terser'
+import AtImport from 'postcss-import'
 
 const indexTemplate = 'resources/template.html'
 
@@ -65,7 +66,7 @@ const config = {
       extract: true,
       minimize: wantMinimize,
       sourceMap: wantSourceMap,
-      plugins: [tailwindcss, autoprefixer]
+      plugins: [AtImport(), tailwindcss, autoprefixer]
     }),
     htmlTemplate({
       template: indexTemplate,

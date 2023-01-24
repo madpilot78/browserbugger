@@ -1,0 +1,57 @@
+@layer components {
+  .btn {
+    @apply rounded-md py-1 px-2 font-bold focus:outline-none focus:ring disabled:opacity-50;
+  }
+
+  .btn-small {
+    @apply text-sm;
+  }
+
+  .btn-big {
+    @apply py-2 px-4 text-lg;
+  }
+
+  .btn-outline {
+    @apply border bg-transparent;
+  }
+
+  .btn-blue {
+    @apply bg-blue-500 text-white hover:enabled:bg-blue-700 dark:bg-blue-600 dark:text-gray-200 dark:hover:enabled:bg-blue-800;
+  }
+
+  .btn-outline-blue {
+    @apply btn-outline hover:enabled:btn-blue border-blue-500 dark:border-blue-600;
+  }
+
+  .btn-gray {
+    @apply bg-gray-400 text-gray-800 hover:enabled:bg-gray-500 dark:bg-gray-600 dark:text-gray-200 dark:hover:enabled:bg-gray-700;
+  }
+
+  .btn-outline-gray {
+    @apply btn-outline hover:enabled:btn-gray border-gray-400 dark:border-gray-600;
+  }
+
+  .btn-yellow {
+    @apply bg-yellow-400 text-gray-100 hover:enabled:bg-yellow-500 dark:bg-yellow-600 dark:hover:enabled:bg-yellow-700;
+  }
+
+  .btn-outline-yellow {
+    @apply btn-outline hover:enabled:btn-yellow border-yellow-400 dark:border-yellow-600;
+  }
+
+  .btn-red {
+    @apply bg-red-500 text-gray-100 hover:enabled:bg-red-700 dark:bg-red-600 dark:hover:enabled:bg-red-800;
+  }
+
+  .btn-outline-red {
+    @apply btn-outline dark:border-bg-red-600 hover:enabled:btn-red border-red-500;
+  }
+
+  .btn-green {
+    @apply bg-green-500 text-gray-100 hover:enabled:bg-green-700 dark:bg-green-600 dark:hover:enabled:bg-green-800;
+  }
+
+  .btn-outline-green {
+    @apply btn-outline dark:border-bg-green-600 hover:enabled:btn-green border-green-500;
+  }
+}
