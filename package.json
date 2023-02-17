@@ -47,7 +47,7 @@
     "rollup-plugin-preserve-shebangs": "^0.2.0",
     "rollup-plugin-progress": "^1.1.2",
     "rollup-plugin-serve": "^2.0.2",
-    "tailwindcss": "^3.2.6"
+    "tailwindcss": "^3.2.7"
   },
   "eslintConfig": {
     "env": {
