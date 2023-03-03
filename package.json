@@ -38,7 +38,7 @@
     "postcss": "^8.4.21",
     "postcss-import": "^15.1.0",
     "prettier": "^2.8.4",
-    "prettier-plugin-tailwindcss": "^0.2.3",
+    "prettier-plugin-tailwindcss": "^0.2.4",
     "rollup": "^3.18.0",
     "rollup-plugin-execute": "^1.1.1",
     "rollup-plugin-generate-html-template": "^1.7.0",
