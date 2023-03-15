@@ -23,7 +23,7 @@
     "fix": "eslint --fix . --ext .js,.vue"
   },
   "devDependencies": {
-    "@babel/core": "^7.21.0",
+    "@babel/core": "^7.21.3",
     "@madpilot78/eslint-config-base": "^1.2.1",
     "@madpilot78/prettier-config": "^1.0.1",
     "@rollup/plugin-alias": "^4.0.2",
