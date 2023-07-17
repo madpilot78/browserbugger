@@ -38,7 +38,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.22.9",
-    "@madpilot78/eslint-config-base": "^1.2.3",
+    "@madpilot78/eslint-config-base": "^1.2.4",
     "@madpilot78/prettier-config": "^1.0.2",
     "@rollup/plugin-alias": "^5.0.0",
     "@rollup/plugin-babel": "^6.0.3",
