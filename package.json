@@ -54,7 +54,7 @@
     "prettier": "^3.0.1",
     "prettier-plugin-packagejson": "^2.4.5",
     "prettier-plugin-tailwindcss": "^0.4.1",
-    "rollup": "^3.27.0",
+    "rollup": "^3.27.1",
     "rollup-plugin-execute": "^1.1.1",
     "rollup-plugin-generate-html-template": "^1.7.0",
     "rollup-plugin-livereload": "^2.0.5",
