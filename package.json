@@ -49,7 +49,7 @@
     "autoprefixer": "^10.4.16",
     "jquery": "^3.7.1",
     "lodash": "^4.17.21",
-    "postcss": "^8.4.30",
+    "postcss": "^8.4.31",
     "postcss-import": "^15.1.0",
     "prettier": "^3.0.3",
     "prettier-plugin-packagejson": "^2.4.5",
